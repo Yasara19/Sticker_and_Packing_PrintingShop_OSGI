@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Print_Packing_Consumer
+Bundle-SymbolicName: Print_Packing_Consumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: print_packing_consumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: Print.Packing.Consumer
+Import-Package: org.osgi.framework;version="1.3.0",
+ packing_publisher
+Bundle-ActivationPolicy: lazy
+Require-Bundle: Packing_Publisher;bundle-version="1.0.0"
